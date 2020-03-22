@@ -17,7 +17,7 @@ public class LoginTest {
 
 	public static void main(String[] args) {
 
-		//this is rough pac
+		
 		HomePage home = new HomePage();
 		LoginPage lp = home.goToLogin();
 		ZohoAppPage zp = lp.doLogin("divyapeddakotla@gmail.com", "Chandana1@");
